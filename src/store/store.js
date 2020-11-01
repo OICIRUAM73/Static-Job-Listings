@@ -1,3 +1,3 @@
 import { writable } from "svelte/store";
 
-export const activeFilters = writable(new Set(["Frontend", "CSS", "JavaScript"]));
+export const activeFilters = writable(new Set());
